@@ -4,7 +4,7 @@
   "description": "The Ambient Light & Token Light toolkit to make your scenes pop!",
   "version": "3.0.0",
   "author": "Blitzkraig",
-  "scripts": ["./advancedlightingtoolkit.js", "./dependencies/chroma.min.js"],
+  "scripts": ["./modules/constants.js", "./modules/utilities.js", "./advancedlightingtoolkit.js", "./dependencies/chroma.min.js"],
   "styles": [],
   "packs": [{
     "name": "advancedlightingtoolkit-macros",
@@ -13,7 +13,7 @@
     "module": "AdvancedLightingToolkit",
     "entity": "Macro"
   }],
-  "minimumCoreVersion": "0.7.1",
+  "minimumCoreVersion": "0.6.0",
   "compatibleCoreVersion": "0.7.1",
   "url": "https://github.com/BlitzKraig/fvtt-AdvancedLightingToolkit",
   "manifest": "https://raw.githubusercontent.com/BlitzKraig/fvtt-AdvancedLightingToolkit/master/module.json",
