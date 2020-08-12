@@ -4,7 +4,7 @@
   "description": "The Ambient Light & Token Light toolkit to make your scenes pop!",
   "version": "3.0.0",
   "author": "Blitzkraig",
-  "scripts": ["./modules/constants.js", "./modules/utilities.js", "./advancedlightingtoolkit.js", "./dependencies/chroma.min.js"],
+  "scripts": ["./modules/constants.js", "./modules/debugpage.js", "./modules/drawlighting.js", "./modules/inputform.js", "./modules/macros.js", "./modules/monkeypatch.js", "./modules/utilities.js", "./advancedlightingtoolkit.js", "./dependencies/chroma.min.js"],
   "styles": [],
   "packs": [{
     "name": "advancedlightingtoolkit-macros",

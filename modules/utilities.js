@@ -1,5 +1,5 @@
 class ALTUtilities {
-    arraysEqual = (arr1, arr2) => {
+    static arraysEqual = (arr1, arr2) => {
         if (arr1.length !== arr2.length)
             return false;
         for (var i = arr1.length; i--;) {
@@ -9,13 +9,13 @@ class ALTUtilities {
 
         return true;
     };
-    randRange = (min, max) => {
+    static randRange = (min, max) => {
         return min + Math.ceil(Math.random() * (max - min));
     };
-    scale = (num, in_min, in_max, out_min, out_max) => {
+    static scale = (num, in_min, in_max, out_min, out_max) => {
         return (num - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
     };
-    fillArray = (length, fillValue) => {
+    static fillArray = (length, fillValue) => {
         var arr = [];
         while (length--) {
             arr[length] = fillValue;
@@ -23,7 +23,7 @@ class ALTUtilities {
         return arr;
     };
     /* beautify ignore:start */
-    safeStringify = (obj, indent = 2) => {
+    static safeStringify = (obj, indent = 2) => {
         let cache = [];
         const retVal = JSON.stringify(
           obj,
