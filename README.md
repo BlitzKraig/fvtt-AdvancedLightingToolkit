@@ -5,6 +5,11 @@
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Q5Q01YIEJ)
 
+# This module has been absorbed into https://github.com/BlitzKraig/fvtt-CommunityLighting
+
+This repo will be deleted soon, please post queries, issues and suggestions in the CommunityLighting repo.
+
+
 ## Dancing Lights for 0.7.1+, currently under development
 
 This repo was cloned from my Dancing Lights repo, so some of the information may be incorrect before release
